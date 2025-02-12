@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* h1{
+    color: red;
+    background-color: #111;
+}
+
+h2 {
+    color: blue;
+} */
+
+
+/* 
+h1{
+    background-color: #111;
+    color: aqua;
+    font-size: 70px;
+    font-weight: 100;
+    font-family: sans-serif;
+    /* line-height: 200px; */
+/* }  */
+*/
+
+
+#box {
+    /* 50% will take the resposize size depending upon the parent size */
+    height: 40%;
+    width: 30%;
+    background-color: red;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-right: 30px;
+}
+
+
+#box2{
+    height: 200px;
+    width: 400px;
+    background-color: aquamarine;
+    position: absolute; /*position absolute will unlock left,right, top , bottom property*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h1 {
+    color: rgba(5, 50, 110, 0.361);
+    font-size: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    display: flex; /*divides into rows and columns*/
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#child1{
+    height: 200px;
+    width: 200px;
+    background-color: salmon;
+}
+
+#child2{
+    height: 200px;
+    width: 200px;
+    background-color: lightseagreen;
+}
+
+#child3{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+}
