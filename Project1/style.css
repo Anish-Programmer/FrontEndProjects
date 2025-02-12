@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+#nav-part1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#nav h2 {
+    font-weight: 500;
+    border: 1px solid #111;
+    border-radius: 50px;
+    padding: 7px 15px;
+}
+
+
+#nav i {
+    font-weight: 500;
+    border: 2px solid #111;
+    border-radius: 50px;
+    padding: 7px 15px;
+}
+
+
+#nav-part2 h1 {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 25px;
+   
+}
+
+#nav-part3 button {
+    font-weight: 500;
+    border: 1px solid #111;
+    padding: 7px 10px;
+    border-radius: 50px;
+}
+
+
+#btn-2 {
+    color: #fff;
+    border: none;
+    background-color: orangered;
+}
+
+
+
+#main > h1 {
+    font-size: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+img {
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+}
+
+
+#img1 {
+    transform: translate(-50%,-50%) rotate(-40deg);
+}
+
+#img2 {
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+
+
+#img3 {
+    transform: translate(-50%,-50%) rotate(-20deg);
+
+}
+
+#img4 {
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+
+#bottom-left {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-weight: 500;
+
+}
+
+#icons {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+#icons #social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#icons h5 {
+    font-weight: 100;
+    padding-top: 15px;
+}
+
+
+#scroll-down-arrow  {
+    height: 50px;
+    width: 90px;
+    /* background-color: red; */
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border: 1px solid #111;
+    position: absolute;
+    padding: 0px 20px;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+#scroll-down-arrow i {
+   font-size: 50px;
+   font-weight: 100;
+}
+
+
+
+#setting-icon {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+
